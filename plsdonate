@@ -1,0 +1,22 @@
+--[[
+  ______   ____    ____  _______ .______       __  ___  __   __       __      
+ /  __  \  \   \  /   / |   ____||   _  \     |  |/  / /_ | |  |     |  |     
+|  |  |  |  \   \/   /  |  |__   |  |_)  |    |  '  /   | | |  |     |  |     
+|  |  |  |   \      /   |   __|  |      /     |    <    | | |  |     |  |     
+|  `--'  |    \    /    |  |____ |  |\  \----.|  .  \   | | |  `----.|  `----.
+ \______/      \__/     |_______|| _| `._____||__|\__\  |_| |_______||_______|
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/typical-overk1ll/scripts/main/Invite",true))()
+function msg(text)
+    local A_1 = text
+local A_2 = "booth"
+local event = game:GetService("ReplicatedStorage").Events.EditBooth
+event:FireServer(A_1, A_2)
+end
+while wait(2) do
+    msg("<font size="30"><font face="Arcade"><font color="#000000"><stroke color="#00b0ff" thickness="6"  transparency="0"> Small game dev, saving funds for my MMO/Fighting game!</stroke></font></font></font>")
+    wait(2)
+    msg("<font size="30"><font face="Arcade"><font color="#000000"><stroke color="#66F443" thickness="6"  transparency="0"> Need funds for advertising + scripters!</stroke></font></font></font>")
+      wait(2)
+    msg("<font size="30"><font face="Arcade"><font color="#000000"><stroke color="#FF3232" thickness="6"  transparency="0"> Goal 5000!</stroke></font></font></font>")
+    end
